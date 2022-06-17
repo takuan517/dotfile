@@ -7,3 +7,10 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 
 brew "anyenv"
+brew "wget"
+brew "tmux"
+
+cask "alfred"
+cask "docker"
+cask "iterm2"
+cask "visual-studio-code"

@@ -16,3 +16,7 @@ defaults:
 # Install macOS applications.
 brew:
 	.bin/brew.sh
+
+# Install dein.vim
+vim:
+	.bin/vim.sh

@@ -26,14 +26,14 @@ then
     # 00:00:00 root@hostname:~  # <- red color
     # $
     # ```
-    export PROMPT=$'%{\e[01;34m%}%*%{\e[00m%} %{\e[01;33m%}$USER@%(!.%{\e[01;31m%}.%{\e[01;32m%})%m:%~%{\e[00m%}\n$ '
+    export PROMPT=$'%{\e[01;34m%}%*%{\e[00m%} %{\e[01;33m%}%n@%(!.%{\e[01;31m%}.%{\e[01;32m%})%m:%~%{\e[00m%}\n$ '
 else
     # Other
     # ```
     # 00:00:00 hoge@hostname:~  # <- green color
     # $
     # ```
-    export PROMPT=$'%{\e[01;34m%}%*%{\e[00m%} %{\e[01;33m%}$USER@%(!.%{\e[01;31m%}.%{\e[01;32m%})%m:%~%{\e[00m%}\n$ '
+    export PROMPT=$'%{\e[01;34m%}%*%{\e[00m%} %{\e[01;33m%}%n@%(!.%{\e[01;31m%}.%{\e[01;32m%})%m:%~%{\e[00m%}\n$ '
 fi
 
 # alias
